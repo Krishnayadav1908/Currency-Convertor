@@ -28,6 +28,9 @@ It allows users to convert currency values.
 ## 📂 Project Structure
 
 src/
+│── assets/
+│ └── screenshots/
+│ └── app.png
 │── components/
 │ └── InputBox.jsx
 │── Hooks/
@@ -36,27 +39,40 @@ src/
 │── main.jsx
 │── index.css
 
+---
+
+## 📸 Screenshots
+
+![Currency Converter Screenshot](./src/assets/Screenshot.png)
+
+---
+
 ## ⚙️ Installation & Setup
 
-1. clone the repository
-   bash
+1. Clone the repository:
 
+```bash
 git clone https://github.com/Krishnayadav1908/Currency-Convertor.git
+```
 
-2. Go to project folder
-   cd currency-converter
+2. Navigate to project folder:
 
-3. Install dependencies
-   npm install
+```bash
+cd currency-converter
+```
 
-4. Start the development server
-   npm run dev
+3.Install dependencies:
+
+```bash
+npm install
+```
+
+4.  Start the development server:
+
+```bash
+npm run dev
+```
 
 🌍 API Used
 
 Exchange rate API (via custom hook useCurrencyInfo)
-
-🧑‍💻 Author
-
-Krishna Yadav
-GitHub: @krishnayadav1908
